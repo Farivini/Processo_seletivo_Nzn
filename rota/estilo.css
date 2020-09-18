@@ -1,0 +1,53 @@
+nav
+{
+    justify-content: left;
+    align-items: left;
+    background-position: left;
+    color: rgb(202, 202, 202);
+
+}
+
+body{
+    
+    
+    
+    font-family: consolas;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:  100vh;
+    background-image: url(nst.png);
+    background-position: center;
+    
+
+   
+}
+
+
+a{
+    position: relative;
+    display: inline-block;
+    padding: 20px 90px;
+    color: #aedcff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 30px;
+    overflow: hidden;
+    transition: 0.2s;
+
+    
+
+}
+a:hover{
+    color:#255784;
+    background: #e0e3e6 ;
+    border-radius: 10px;
+    
+    padding: 20px;
+    width: 300px;
+    
+    box-shadow:   0 0 20px #2196f3,0 0 60px #2196f3,0 0 80px #2196f3,;
+}
